@@ -16,8 +16,14 @@ body{
 a{
     text-decoration: none;
 }
+.wrapper{
+    position: relative;
+}
 .header{
     border-bottom: 1px silver solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .header__inner{
     position: relative;
@@ -26,7 +32,7 @@ a{
     padding: 0 1.5rem;
     display: flex;
     align-items: center;
-    height: 62px;
+    height: 60px;
 }
 .header__nav{
     width: 100%;
@@ -62,4 +68,25 @@ a{
 }
 .header__contact a:hover{
     opacity: .7;
+}
+main{
+    min-height: 1000px;
+}
+.contents{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0 1.5rem;
+}
+.footer{
+    background: #000;
+}
+.footer__inner{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 1.2rem;
+}
+.footer-copyright{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: right;
 }
