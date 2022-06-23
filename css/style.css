@@ -70,7 +70,7 @@ a{
     opacity: .7;
 }
 main{
-    min-height: 1000px;
+    min-height: 3000px;
 }
 .contents{
     max-width: 1140px;
@@ -89,4 +89,22 @@ main{
     color: #fff;
     font-size: 1.2rem;
     text-align: right;
+}
+
+/* ページTOPに戻る */
+
+#page-top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	min-width: 50px;
+	min-height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	bottom: 5rem;
+	right: 1.5rem;
+    cursor: pointer;
 }
