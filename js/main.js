@@ -1,5 +1,7 @@
 $(function(){
+    //ヘッダーHTML
     $('.header').load('/js/header.html');
+    //フッターHTML
     $('.footer').load('/js/footer.html');
 
     // TOPに戻るボタン

@@ -71,6 +71,7 @@ a{
 }
 main{
     min-height: 3000px;
+    padding-top: 6.1rem;
 }
 .contents{
     max-width: 1140px;
